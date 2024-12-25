@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name" translatable="false">Showcase</string>
+
+    <string name="title_today">Today</string>
+    <string name="title_all_decks">Study all decks</string>
+
+    <string name="deck_new_count">%d new</string>
+    <string name="deck_overdue_count">%d overdue</string>
+    <plurals name="deck_reviews_count">
+        <item quantity="one">%d review</item>
+        <item quantity="other">%d reviews</item>
+    </plurals>
+
+    <plurals name="language_words">
+        <item quantity="one">word</item>
+        <item quantity="other">words</item>
+    </plurals>
+
+    <string name="profile_study">Study</string>
+    <string name="profile_dictionary">Dictionary</string>
+    <string name="profile_feedback">Give feedback</string>
+    <string name="profile_settings">Settings</string>
+    <plurals name="profile_language_words">
+        <item quantity="one">%d word</item>
+        <item quantity="other">%d words</item>
+    </plurals>
+</resources>
