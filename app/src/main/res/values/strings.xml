@@ -2,7 +2,7 @@
     <string name="app_name" translatable="false">Showcase</string>
 
     <string name="title_today">Today</string>
-    <string name="title_all_decks">Study all decks</string>
+    <string name="title_all_decks">Show all cards</string>
 
     <string name="deck_new_count">%d new</string>
     <string name="deck_overdue_count">%d overdue</string>
