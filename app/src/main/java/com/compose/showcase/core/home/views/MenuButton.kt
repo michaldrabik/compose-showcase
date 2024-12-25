@@ -15,7 +15,7 @@ import com.compose.showcase.ui.theme.ShowcaseTheme
 @Composable
 internal fun MenuButton(modifier: Modifier = Modifier) {
     Image(
-        painter = painterResource(R.drawable.image_migaku),
+        painter = painterResource(R.drawable.image_menu),
         contentDescription = null,
         modifier = modifier
             .shadowMedium(
