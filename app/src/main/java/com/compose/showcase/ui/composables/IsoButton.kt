@@ -34,12 +34,12 @@ import com.compose.showcase.ui.theme.TealDark
 
 @Composable
 internal fun IsoButton(
+    modifier: Modifier = Modifier,
     depth: Dp = 8.dp,
     depthColor: Color = TealDark,
     borderColor: Color = PurpleDark,
     borderWidth: Dp = 2.dp,
     containerColor: Color = PurpleLight,
-    modifier: Modifier = Modifier,
     content: @Composable () -> Unit,
 ) {
     var isPressed by remember { mutableStateOf(false) }

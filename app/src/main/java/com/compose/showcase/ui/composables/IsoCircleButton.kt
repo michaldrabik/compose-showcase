@@ -35,11 +35,11 @@ import com.compose.showcase.ui.theme.SunriseRed
 
 @Composable
 internal fun IsoCircleButton(
+    modifier: Modifier = Modifier,
     containerColors: List<Color> = listOf(SunriseOrange, SunriseRed),
     containerSize: Dp = 56.dp,
     borderColor: Color = PurpleDark,
     borderWidth: Dp = 2.dp,
-    modifier: Modifier = Modifier,
     content: @Composable () -> Unit,
 ) {
     var isPressed by remember { mutableStateOf(false) }
